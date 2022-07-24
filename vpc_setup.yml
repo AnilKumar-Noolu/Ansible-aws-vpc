@@ -108,8 +108,8 @@
         resource_tags:
           Name: Anil-IGW
       register: igw_out
-    - debug:
-        var: igw_out
+#    - debug:
+#        var: igw_out
 
     - name: Created route Table in Public subnet
       ec2_vpc_route_table:
@@ -125,8 +125,8 @@
           - dest: 0.0.0.0/0
             gateway_id: "{{igw_out.gateway_id}}"
       register: pubRT_out
-    - debug:
-        var: pubRT_out
+#    - debug:
+#        var: pubRT_out
 
     - name: Create new NAT gateway and allocate new EIP if a NAT gateway doesn't exist in the subnet.
       ec2_vpc_nat_gateway:
@@ -146,7 +146,7 @@
         tags:
           Name: Anil-privRT
         subnets:
-          - "{{privub1_out.subnet.id}}"
+          - "{{privsub1_out.subnet.id}}"
           - "{{privsub2_out.subnet.id}}"
           - "{{privsub3_out.subnet.id}}"
         routes:
