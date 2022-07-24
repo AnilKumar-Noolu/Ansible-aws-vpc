@@ -168,8 +168,8 @@
         - privsub2_out.subnet.id
         - privsub3_out.subnet.id
         - igw_out.gateway_id
-        - pubRT_out.route-table.id
-        - privRT_out.route-table.id
+        - pubRT_out.route_table.id
+        - privRT_out.route_table.id
         - NATGW_out.nat_gateway_id
 
 
