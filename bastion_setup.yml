@@ -17,3 +17,10 @@
     - debug:
         var: keyout
 
+    - name: save pvt key into file bastion.pem
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: "./bastion.pem"
+        mode: 0600
+      when: keyout.changed
+
