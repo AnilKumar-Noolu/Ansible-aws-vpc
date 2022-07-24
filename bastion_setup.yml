@@ -14,8 +14,8 @@
         name: bastion-key
         region: "{{region}}"
       register: keyout
-    - debug:
-        var: keyout
+#    - debug:
+#        var: keyout
 
     - name: save pvt key into file bastion.pem
       copy:
@@ -23,4 +23,44 @@
         dest: "./bastion.pem"
         mode: 0600
       when: keyout.changed
+
+    - name: create SG for bastion
+      ec2_group:
+        name: Bastion-SG
+        description: allow port22
+        region: "{{region}}"
+        vpc_id: "{{vpcid}}"
+        rules:
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            cidr_ip: "{{MYIP}}"
+      register: BastionSG_out
+    - debug:
+        var: BastionSG_out
+
+    - name: creating bastion Host
+      ec2:
+        key_name: bastion-key
+        region: "{{region}}"
+        instance_type: t2.micro
+        image: "{{bastion_ami}}"
+        wait: yes
+        wait_timeout: 300
+        instance_tags:
+          Name: Bastion-Host
+          project: Anil
+          owner: DevOps
+        exact_count: 1
+        count_tag:
+          Name: Bastion-Host
+          project: Anil
+          owner: DevOps
+        group_id: "{{BastionSG_out.group_id}}"
+        vpc_subnet_id: "{{pubsub1id}}"
+      register: bastionHost_out
+    - debug:
+        var: bastionHost_out
+
+
 
