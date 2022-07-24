@@ -112,7 +112,7 @@
         var: igw_out
 
 
-    - name: Create route Table in Public subnet
+    - name: Created route Table in Public subnet
       ec2_vpc_route_table:
         vpc_id: "{{vpcout.vpc.id}}"
         region: "{{region}}"
