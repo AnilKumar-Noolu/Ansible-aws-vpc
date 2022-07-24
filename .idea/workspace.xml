@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74687f44-7e35-474a-8dc8-3765bf71e689" name="Changes" comment="ADded all details in a file them in bastion" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bastion_setup.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vars/output-vars" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vars/vpc_setup" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vpc_setup.yml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CNQoBr3bGxG1ZfnS4Vxspx7J0l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Anil/IdeaProjects/Ansible-aws-vpc"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anil\IdeaProjects\Ansible-aws-vpc\vars" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Ansible-aws-vpc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Ansible-aws-vpc" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74687f44-7e35-474a-8dc8-3765bf71e689" name="Changes" comment="" />
+      <created>1658640735025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658640735025</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding vpc setup file">
+      <created>1658640909331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658640909331</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding bastion setup file">
+      <created>1658640980511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658640980511</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added bastion setup file">
+      <created>1658641016128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658641016128</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added bastion &amp; vpc setup files to vars">
+      <created>1658641169800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658641169800</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added vpc in yaml file">
+      <created>1658641433152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658641433152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added vpc debug in yaml file">
+      <created>1658641612134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658641612134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added vpc subnet1 in yaml file">
+      <created>1658643117018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658643117018</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added vpc-subnet1 in yaml file">
+      <created>1658643401387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658643401387</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed errors in yaml file">
+      <created>1658643507979</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658643507979</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added public and private subnets in yaml file">
+      <created>1658643736973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658643736973</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added igw and pubRT in yaml file">
+      <created>1658644434296</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658644434296</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added igw and pubRT in yaml file">
+      <created>1658644625576</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658644625576</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added igw and pubRT in yaml file">
+      <created>1658645090664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658645090664</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added igw and pubRT in yaml file">
+      <created>1658645218063</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658645218063</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added NAT-gw and privRT in yaml file">
+      <created>1658645708376</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658645708376</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added NAT-gw and privRT in yaml file">
+      <created>1658646112219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658646112219</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added all details and printing them in yaml file">
+      <created>1658646449322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658646449322</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added all details and printing them in yaml file">
+      <created>1658646605636</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658646605636</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added all details and printing them in yaml file">
+      <created>1658646922959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658646922959</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added all details and printing them in yaml file">
+      <created>1658646949771</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658646949771</updated>
+    </task>
+    <task id="LOCAL-00021" summary="copying values in a file them in yaml file">
+      <created>1658647493457</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658647493457</updated>
+    </task>
+    <task id="LOCAL-00022" summary="copying values in a file them in yaml file">
+      <created>1658647571032</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658647571032</updated>
+    </task>
+    <task id="LOCAL-00023" summary="creating key in a file them in bastion">
+      <created>1658648294277</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658648294277</updated>
+    </task>
+    <task id="LOCAL-00024" summary="creating key in a file them in bastion">
+      <created>1658648463974</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658648463974</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ADded all details in a file them in bastion">
+      <created>1658648971271</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658648971271</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ADded all details in a file them in bastion">
+      <created>1658684545231</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658684545232</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding vpc setup file" />
+    <MESSAGE value="Adding bastion setup file" />
+    <MESSAGE value="Added bastion setup file" />
+    <MESSAGE value="Added bastion &amp; vpc setup files to vars" />
+    <MESSAGE value="Added vpc in yaml file" />
+    <MESSAGE value="Added vpc debug in yaml file" />
+    <MESSAGE value="Added vpc subnet1 in yaml file" />
+    <MESSAGE value="Added vpc-subnet1 in yaml file" />
+    <MESSAGE value="fixed errors in yaml file" />
+    <MESSAGE value="Added public and private subnets in yaml file" />
+    <MESSAGE value="Added igw and pubRT in yaml file" />
+    <MESSAGE value="Added NAT-gw and privRT in yaml file" />
+    <MESSAGE value="Added all details and printing them in yaml file" />
+    <MESSAGE value="copying values in a file them in yaml file" />
+    <MESSAGE value="creating key in a file them in bastion" />
+    <MESSAGE value="ADded all details in a file them in bastion" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADded all details in a file them in bastion" />
+  </component>
+</project>
