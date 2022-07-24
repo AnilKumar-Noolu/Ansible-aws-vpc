@@ -108,9 +108,6 @@
         resource_tags:
           Name: Anil-IGW
       register: igw_out
-    - debug:
-        var: igw_out
-
 
     - name: Created route Table in Public subnet
       ec2_vpc_route_table:
