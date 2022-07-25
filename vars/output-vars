@@ -1,5 +1,3 @@
-git Token: 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
-
 vpcid: vpc-001277986a03c67cc
 pubsub1id: subnet-0c41db50b9eb582e9
 pubsub2id: subnet-09bac5c89b0df1b22
@@ -9,5 +7,5 @@ privsub2id: subnet-051c3e8314db29333
 privsub3id: subnet-0871db12bd41c4f4b
 igwid: igw-076c110e118cf927f
 pubRTid: rtb-0160d53722194335b
-NATGWid: nat-03edf102451884783
+NATGWid: nat-0ef2781b8c6366f32
 privRTid: rtb-00bd15403685fce85
