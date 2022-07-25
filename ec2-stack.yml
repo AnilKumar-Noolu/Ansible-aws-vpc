@@ -22,3 +22,48 @@
         dest: "./loginkey.pem"
         mode: 0600
       when: key_out.changed
+
+    - name: craete SG for ELB
+      ec2_group:
+        name: ELB-SG
+        description: Allow port 80 from anywhere
+        region: "{{region}}"
+        vpc_id: "{{vpcid}}"
+        rules:
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: 0.0.0.0/0
+      register: ELBSG_out
+
+    - name: create SG for EC2-stack
+      ec2_group:
+        name: ec2-stack-SG
+        description: Allow port 22 from everywhere and all ports within SG
+        region: "{{region}}"
+        vpc_id: "{{vpcid}}"
+        purge_rules: no
+        rules:
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            group_id: "{{ELBSG_out.group_id}}"
+
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            group_id: "{{BastionSGid}}"
+      register: stackSG_out
+
+    - name: update SG for internal communication
+      ec2_group:
+        name: ec2-stack-SG
+        description: Allow port 22 from everywhere and all ports within SG
+        region: "{{region}}"
+        vpc_id: "{{vpcid}}"
+        purge_rules: no
+        rules:
+          - proto: all
+            group_id: "{{stackSG_out.group_id}}"
+
+
