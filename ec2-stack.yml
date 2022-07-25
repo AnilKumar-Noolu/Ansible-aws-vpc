@@ -1,0 +1,24 @@
+---
+- name: Setup stack
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Import vpc-output-vars
+      include_vars: vars/vpc-output-vars
+
+    - name: Import stack setup
+      include_vars: vars/stack_setup
+
+    - name: create ec2 key
+      ec2_key:
+        name: ec2-stack-key
+        region: "{{region}}"
+      register: key_out
+
+    - name: save private key into file loginkey
+      copy:
+        content: "{{key_out.key.private_key}}"
+        dest: "./loginkey.pem"
+        mode: 0600
+      when: key_out.changed
