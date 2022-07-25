@@ -62,14 +62,5 @@
 #    - debug:
 #        var: bastionHost_out
 
-    - name: Insert/update BastionSGid in output file
-      blockinfile:
-        path: vars/vpc-output-vars
-        backup: yes
-        block:
-          BastionSGid: "{{BastionSG_out.group_id}}"
-      register: BastionSGid_out
-    - debug:
-        var: BastionSGid_out
 
 
