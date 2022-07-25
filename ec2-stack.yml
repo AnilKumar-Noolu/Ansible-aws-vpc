@@ -182,7 +182,7 @@
     - name: Insert/update Hosts Ip and name in file provision_stack/group_vars/hostsip
       blockinfile:
         path: provision_stack/group_vars/hostsip
-        block:
+        block: |
           web01-ip: {{web01_out.tagged_instances[0].private_ip}}
           app01_ip: {{ app01_out.tagged_instances[0].private_ip }}
           rmq01_ip: {{ rmq01_out.tagged_instances[0].private_ip }}
