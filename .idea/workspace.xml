@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74687f44-7e35-474a-8dc8-3765bf71e689" name="Changes" comment="ADded all details in a file them in bastion" />
+    <list default="true" id="74687f44-7e35-474a-8dc8-3765bf71e689" name="Changes" comment="ADded all details in a file them in bastion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Anil/IdeaProjects/Ansible-aws-vpc"
+    "last_opened_file_path": "C:/Users/Anil/IdeaProjects"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658684545232</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ADded all details in a file them in bastion">
+      <created>1658685777111</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658685777111</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
